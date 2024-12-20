@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleverTap Integration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/clevertap-web-sdk@latest"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>CleverTap Web Integration</h1>
+    <form id="signup-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <button type="button" id="login-button">Login</button>
+        <button type="button" id="profile-push-button">Profile Push</button>
+        <button type="button" id="ask-push-button">Ask for Push</button>
+        <button type="button" id="event-button">Raise Event</button>
+    </form>
+</body>
+</html>
